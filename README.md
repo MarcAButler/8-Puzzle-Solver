@@ -13,7 +13,7 @@ The way that this works is that a user may input 1 of 3 algorithms that will be 
 2. Tiles out of Place: Simply the number of tiles out of place in as a means of heurisitics for our AI
 
 ### Proper Input
-Proper inputs for the puzzle must consist of 9 characters--no more; no less. Each must be a different character in the form of \[1-8\] where a `-` must be inserted as well to denote the empty space. Only one of each character may be used per puzzle.
+Proper inputs for the puzzle must consist of 9 characters--no more; no less. Each must be a different character in the form of **\[1-8\]** where a `-` must be inserted as well to denote the empty space. Only one of each character may be used per puzzle.
 
 # Download
-An executable can be found in a .tar or .zip file in the releases tab of this repo.
+An executable can be found in a `.tar.gz` or `.zip` file in the releases tab of this repo.
