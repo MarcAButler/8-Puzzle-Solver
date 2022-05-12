@@ -154,7 +154,7 @@ while len(puzzle_encoding) != 9:
     print("------------------------------------------------")
     puzzle_encoding = input("PUZZLE ENCODING: ")
     
-    if puzzle_encoding != 9:
+    if len(puzzle_encoding) != 9:
         print("[!] INCORRECT USAGE [!]")
         print("YOU MUST ENTER A STRING ENCODING OF LENGTH 9")
 
