@@ -1,11 +1,9 @@
-<img align="center" src="https://github.com/MarcAButler/8-Puzzle-Solver/blob/master/Demo.gif">
-
-
-![GIF of a short demo of the 8-Puzzle-Solver](https://github.com/MarcAButler/8-Puzzle-Solver/blob/master/Demo.gif)
-
-
-
 # 8-Puzzle-Solver
+
+<p align="center">
+  <img alt="GIF of a short demo of the 8-Puzzle-Solver" src="https://github.com/MarcAButler/8-Puzzle-Solver/blob/master/Demo.gif">
+</p>
+
 The 8-Puzzle-Solver is an artificially intelligent puzzle solver based on 8-tiled version of the [sliding puzzle](https://en.wikipedia.org/wiki/Sliding_puzzle).
 The way that this works is that a user may input 1 of 3 algorithms that will be used to solve an arbitrary puzzle of length 9.
 
