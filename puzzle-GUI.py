@@ -106,14 +106,6 @@ class Tiles:
 ################################################################
 
 
-
-print("[CHOSE AN ALGORITHM BY TYPING THE FOLLOWING]")
-print("bfs - breadth_first_search(puzzle_encoding)")
-print("bstfs - best_first_search(puzzle_encoding, heuristic_function)")
-print("a* - a_star_search(puzzle_encoding, heuristic_function)")
-print("------------------------------------------------")
-
-
 algorithm = ''
 heuristic_function = ''
 puzzle_encoding = ''
@@ -180,6 +172,7 @@ elif algorithm == "bstfs":
         solution_list = best_first_search(puzzle_encoding, number_of_tiles_out_of_place)
 
 elif algorithm == "a*":
+    print(f"PUZZLE_ENCODING LENGTH: {len(puzzle_encoding)}")
      # Handle heuristic_function
     if heuristic_function == "manhattan":
         # [PASSES]
@@ -195,6 +188,7 @@ for i in range(len(solution_list)):
     puzzle_encodings.put(solution_list[i])
     #$print(f"ELEMENT: {i}")
 
+#print("GAME FAILED")
 
 # Initialize the python library
 pygame.init()

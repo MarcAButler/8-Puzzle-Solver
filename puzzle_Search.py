@@ -376,6 +376,7 @@ def manhattan_distance(puzzle_encoding):
 
 
     for tile in puzzle_encoding:
+        # print(f"puzzle_encoding.index(tile): {puzzle_encoding.index(tile)}")
         distance = distance_apart(puzzle_encoding.index(tile), tile)
 
         total_manhattan += distance
@@ -408,7 +409,7 @@ def distance_apart(index, tile):
         7 : (2, 1),
         8 : (2, 2),
     }
-    
+        
     distance_apart = abs(correct_tile_positions[tile][0] - index_map[index][0]) + abs(correct_tile_positions[tile][1] - index_map[index][1])
     return distance_apart
 
